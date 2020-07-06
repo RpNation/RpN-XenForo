@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+  <modification type="public" template="helper_js_global" modification_key="bbcodeplus_js" description="JavaScript for BBCode+" execution_order="1" enabled="1" action="str_replace">
+    <find><![CDATA[<!--XF:CSS-->]]></find>
+    <replace><![CDATA[<xf:js src="addons/bbcodeplus.js" />
+<xf:css src="bbcodeplus.css" />
+
+<!--XF:CSS-->]]></replace>
+  </modification>
+</template_modifications>

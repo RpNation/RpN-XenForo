@@ -1,0 +1,14 @@
+{
+    "legacy_addon_id": "",
+    "title": "CSS Image Proxying Utils",
+    "description": "Automatically proxies background images in CSS code.",
+    "version_id": 4,
+    "version_string": "1.0.3",
+    "dev": "Lyrositor",
+    "dev_url": "",
+    "faq_url": "",
+    "support_url": "",
+    "extra_urls": [],
+    "require": [],
+    "icon": ""
+}

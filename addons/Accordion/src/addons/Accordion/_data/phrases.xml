@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="custom_bb_code_desc.accordion" version_id="1" version_string="1.0.0"><![CDATA[A customizable interactive accordion]]></phrase>
+  <phrase title="custom_bb_code_example.accordion" version_id="1" version_string="1.0.0"><![CDATA[[accordion=200]
+{slide=First Slide}First slide content{/slide}
+{slide=Second Slide}Second slide content{/slide}
+[/accordion]]]></phrase>
+  <phrase title="custom_bb_code_output.accordion" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.accordion" version_id="1" version_string="1.0.0"><![CDATA[Accordion]]></phrase>
+</phrases>

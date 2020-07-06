@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="custom_bb_code_desc.animation" version_id="8" version_string="1.1.3"><![CDATA[Registers a new animation for the post.]]></phrase>
+  <phrase title="custom_bb_code_desc.br" version_id="2" version_string="1.0.4"><![CDATA[Explicitly adds a line-break.]]></phrase>
+  <phrase title="custom_bb_code_desc.class" version_id="1" version_string="1.0.0"><![CDATA[Registers a post-specific CSS class.]]></phrase>
+  <phrase title="custom_bb_code_desc.div" version_id="1" version_string="1.0.0"><![CDATA[Renders an HTML div tag with either a class or a style.]]></phrase>
+  <phrase title="custom_bb_code_desc.export" version_id="9" version_string="1.1.11"><![CDATA[Marks a section of a post as exportable.]]></phrase>
+  <phrase title="custom_bb_code_desc.import" version_id="9" version_string="1.1.11"><![CDATA[Imports a post's exported content]]></phrase>
+  <phrase title="custom_bb_code_desc.input" version_id="1" version_string="1.0.0"><![CDATA[Creates a user input field.]]></phrase>
+  <phrase title="custom_bb_code_desc.nobr" version_id="1" version_string="1.0.0"><![CDATA[Disables newline replacements.]]></phrase>
+  <phrase title="custom_bb_code_desc.script" version_id="1" version_string="1.0.0"><![CDATA[Registers a post-specific script bound to an element.]]></phrase>
+  <phrase title="custom_bb_code_example.animation" version_id="8" version_string="1.1.3"><![CDATA[[animation=example]
+  [keyframe=0]background-color: yellow;[/keyframe]
+  [keyframe=100]background-color: blue;[/keyframe]
+[/animation]]]></phrase>
+  <phrase title="custom_bb_code_example.br" version_id="2" version_string="1.0.4"><![CDATA[Some text[br][/br]broken up]]></phrase>
+  <phrase title="custom_bb_code_example.class" version_id="1" version_string="1.0.0"><![CDATA[[nobr][div class=element]Element[/div]
+[class=element]
+background-color: red;
+border: solid 1px green;
+[/class]
+[class name=element state=hover]
+background-color: blue;
+border: solid 1px yellow;
+[/class][/nobr]]]></phrase>
+  <phrase title="custom_bb_code_example.div" version_id="1" version_string="1.0.0"><![CDATA[[div=background-color: red;]A red background[/div]]]></phrase>
+  <phrase title="custom_bb_code_example.export" version_id="9" version_string="1.1.11"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.import" version_id="9" version_string="1.1.11"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.input" version_id="1" version_string="1.0.0"><![CDATA[Username: [input=userUsername]Username[/input]
+Password: [input class=userPassword type=password maxlength=12 placeholder="Password"][/input]]]></phrase>
+  <phrase title="custom_bb_code_example.nobr" version_id="1" version_string="1.0.0"><![CDATA[[nobr]First line
+Second line[/nobr]]]></phrase>
+  <phrase title="custom_bb_code_example.script" version_id="1" version_string="1.0.0"><![CDATA[[nobr][div class=element]Element[/div]
+[script=element]
+setText init
+[/script]
+[script class=element on=mouseenter]
+set p (getText)
+setText "${p} mouseenter"
+[/script][/nobr]]]></phrase>
+  <phrase title="custom_bb_code_output.animation" version_id="8" version_string="1.1.3"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.br" version_id="2" version_string="1.0.4"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.class" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.div" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.export" version_id="9" version_string="1.1.11"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.import" version_id="9" version_string="1.1.11"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.input" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.nobr" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.script" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.animation" version_id="8" version_string="1.1.3"><![CDATA[Animation]]></phrase>
+  <phrase title="custom_bb_code_title.br" version_id="2" version_string="1.0.4"><![CDATA[Manual line-break]]></phrase>
+  <phrase title="custom_bb_code_title.class" version_id="1" version_string="1.0.0"><![CDATA[Class]]></phrase>
+  <phrase title="custom_bb_code_title.div" version_id="1" version_string="1.0.0"><![CDATA[Div]]></phrase>
+  <phrase title="custom_bb_code_title.export" version_id="9" version_string="1.1.11"><![CDATA[Export]]></phrase>
+  <phrase title="custom_bb_code_title.import" version_id="9" version_string="1.1.11"><![CDATA[Import]]></phrase>
+  <phrase title="custom_bb_code_title.input" version_id="1" version_string="1.0.0"><![CDATA[Input]]></phrase>
+  <phrase title="custom_bb_code_title.nobr" version_id="1" version_string="1.0.0"><![CDATA[No line-breaks]]></phrase>
+  <phrase title="custom_bb_code_title.script" version_id="1" version_string="1.0.0"><![CDATA[Script]]></phrase>
+</phrases>

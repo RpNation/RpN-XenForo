@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phrases>
+  <phrase title="custom_bb_code_desc.font" version_id="1" version_string="1.0.0"><![CDATA[Extends the standard font tag with Google Fonts support.]]></phrase>
+  <phrase title="custom_bb_code_example.font" version_id="1" version_string="1.0.0"><![CDATA[[FONT=Lobster]Lobster font[/FONT]]]></phrase>
+  <phrase title="custom_bb_code_output.font" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.font" version_id="1" version_string="1.0.0"><![CDATA[Font (with Google Fonts support)]]></phrase>
+</phrases>

@@ -1,0 +1,9 @@
+{
+    "js/addons/google_fonts.js": "481b75b75ac346f87dcc09bf5f8e4f0bfe9442c7a0b7c4ff7b62bedc72a82095",
+    "js/addons/google_fonts.min.js": "ca284389abf4f8b8c0b0ffd437c9e6df1d81c86d3b4cb89c565573f8fe692d31",
+    "src/addons/GoogleFonts/addon.json": "662bc9ea826f2ac221522c72f38af2ef82dce77007239323d41c3801bb1b889e",
+    "src/addons/GoogleFonts/BbCode/Font.php": "5142bf81c5f56b5940770955c11fc3dc465e058ed1bbb392c51e37247481badd",
+    "src/addons/GoogleFonts/_data/bb_codes.xml": "03bfa2c8b3f867ca42d836ba0116597f53484f31d1b2d999d0c4be76c8d7c1fd",
+    "src/addons/GoogleFonts/_data/phrases.xml": "29ee01452753cb6dd2eaf37121658adaf0ec3b2f61f5673e7b3850af322fd0e9",
+    "src/addons/GoogleFonts/_data/template_modifications.xml": "8e175a44964c0204f99d3a78db7b83d4bf4b4d96bd50208724d28ce775a405c5"
+}

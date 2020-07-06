@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<class_extensions>
+  <extension from_class="XF\Entity\ConversationMaster" to_class="ModerationTools\XF\Entity\ConversationMaster" execute_order="10" active="1"/>
+  <extension from_class="XF\Pub\Controller\Conversation" to_class="ModerationTools\XF\Pub\Controller\Conversation" execute_order="10" active="1"/>
+  <extension from_class="XF\Repository\Conversation" to_class="ModerationTools\XF\Repository\Conversation" execute_order="10" active="1"/>
+</class_extensions>

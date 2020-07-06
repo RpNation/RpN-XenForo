@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bb_codes>
+  <bb_code bb_code_id="fa" bb_code_mode="callback" has_option="no" callback_class="FontAwesome\BbCode\FontAwesome" callback_method="renderTagWithFontAwesome" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+</bb_codes>
