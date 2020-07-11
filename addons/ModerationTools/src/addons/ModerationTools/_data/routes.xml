@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<routes>
-  <route route_type="public" route_prefix="conversations-others" format=":int&lt;user_id,username&gt;/:page" controller="ModerationTools:ConversationOthers" context="conversations-others"/>
-</routes>

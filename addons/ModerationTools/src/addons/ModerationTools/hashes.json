@@ -1,9 +1,0 @@
-{
-    "src/addons/ModerationTools/addon.json": "e755afcb7a62b32dd03009a3feacb83206b541a7931598c3c14e4d2c3509383a",
-    "src/addons/ModerationTools/Pub/Controller/ConversationOthers.php": "a52eb58929bf3439b3d53eebfb79dd288394d180fd2b29873040f28aa887afad",
-    "src/addons/ModerationTools/XF/Entity/ConversationMaster.php": "c8a16dcdfd49de282c5e7db14953203aecc6160357a7202ce17089d6d62762f3",
-    "src/addons/ModerationTools/XF/Pub/Controller/Conversation.php": "5e493daac8e53bb842d7f0bd672c26723f3d6e1bafc757723506aa863e0d3177",
-    "src/addons/ModerationTools/XF/Repository/Conversation.php": "3fe98e03ab93774fc5579bd846087e6fe5f10fd3fc9f5eefcee79aa9fb035c21",
-    "src/addons/ModerationTools/_data/class_extensions.xml": "2b705c413c01c705cc4d19ef22132122f9337742e80c99dfc9b7f54ed8fe6e28",
-    "src/addons/ModerationTools/_data/routes.xml": "ca26a74583baf5107767a7ef981d717068247bfadef7f3bcc71c545e0fbf3da1"
-}
