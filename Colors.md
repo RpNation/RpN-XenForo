@@ -3,6 +3,7 @@
 ## General Settings
 Text Color: Neutral 3
 `@xf-textColor`
+
 Content Background Color: Neutral 1
 `@xf-contentBg`
 
