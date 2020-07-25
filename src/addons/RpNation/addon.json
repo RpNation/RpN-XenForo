@@ -1,0 +1,14 @@
+{
+  "legacy_addon_id": "",
+  "title": "RPNation Custom BBCode Addon",
+  "description": "Provides Customizable BBCode",
+  "version_id": 1,
+  "version_string": "1.0.0",
+  "dev": "MShultz",
+  "dev_url": "",
+  "faq_url": "",
+  "support_url": "",
+  "extra_urls": [],
+  "require": [],
+  "icon": ""
+}

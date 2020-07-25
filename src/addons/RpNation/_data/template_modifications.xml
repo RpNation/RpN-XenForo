@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template_modifications>
+<!-- Google Fonts -->
+  <modification type="public" template="helper_js_global" modification_key="google_fonts_js" description="JavaScript for Google Fonts" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<!--XF:JS-->]]></find>
+    <replace><![CDATA[<xf:js src="addons/google_fonts.js" />
+<!--XF:JS-->]]></replace>
+  </modification>
+<!-- Tabs -->
+  <modification type="public" template="helper_js_global" modification_key="tabs_css" description="CSS for Tabs" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<!--XF:CSS-->]]></find>
+    <replace><![CDATA[<!--XF:CSS-->
+<xf:css src="tabs.css" />]]></replace>
+  </modification>
+  <modification type="public" template="helper_js_global" modification_key="tabs_js" description="JavaScript for Tabs" execution_order="10" enabled="1" action="str_replace">
+    <find><![CDATA[<!--XF:JS-->]]></find>
+    <replace><![CDATA[<!--XF:JS-->
+<xf:js src="addons/tabs.js" />]]></replace>
+  </modification>
+</template_modifications>
