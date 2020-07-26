@@ -27,14 +27,12 @@ class Font
 
 		$font = htmlspecialchars(addslashes(trim($tagOption)));
 
-		$test = ($renderer instanceof XF\BbCode\Renderer\Html);
-		$renderer->getTemplater()->inlineJs("console.log('test: ', $test)");
-	//	if ($renderer instanceof XF\BbCode\Renderer\Html)
-		//{
+		if (is_a($renderer, 'XF\BbCode\Renderer\Html'))
+		{
 			$renderer->getTemplater()->inlineJs("console.log('here')");
 			$webfont = str_replace(' ', '+', $font);
 			$renderer->getTemplater()->inlineJs("loadWebfont('$webfont');");
-	//	}
+		}
 		return "<span style=\"font-family: '$font';\">$text</span>";
 	}
 }
