@@ -26,7 +26,7 @@ class Font
 		}
 
 		$font = htmlspecialchars(addslashes(trim($tagOption)));
-		$renderer->getTemplater()->inlineJs("console.log($renderer)");
+		$renderer->getTemplater()->inlineJs("console.log($renderer['type'])");
 		// $renderer->getTemplater()->inlineJs("console.log($renderer['type'])");
 		if (is_subclass_of($renderer, 'XF\BbCode\Renderer\Html'))
 		{
