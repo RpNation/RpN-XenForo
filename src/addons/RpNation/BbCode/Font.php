@@ -29,7 +29,6 @@ class Font
 
 		if (is_a($renderer, 'XF\BbCode\Renderer\Html'))
 		{
-			$renderer->getTemplater()->inlineJs("console.log('here')");
 			$webfont = str_replace(' ', '+', $font);
 			$renderer->getTemplater()->inlineJs("loadWebfont('$webfont');");
 		}
