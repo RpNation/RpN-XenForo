@@ -26,10 +26,13 @@ class Font
 		}
 
 		$font = htmlspecialchars(addslashes(trim($tagOption)));
-		$renderer->getTemplater()->inlineJs("console.log($renderer['type'])");
+
 		// $renderer->getTemplater()->inlineJs("console.log($renderer['type'])");
+		$test = is_subclass_of($renderer, 'XF\BbCode\Renderer\Html');
+		$renderer->getTemplater()->inlineJs("console.log('test: ', $test)");
 		if (is_subclass_of($renderer, 'XF\BbCode\Renderer\Html'))
 		{
+			$renderer->getTemplater()->inlineJs("console.log('here')");
 			$webfont = str_replace(' ', '+', $font);
 			$renderer->getTemplater()->inlineJs("loadWebfont('$webfont');");
 		}
