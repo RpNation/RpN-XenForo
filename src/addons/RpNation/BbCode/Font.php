@@ -46,7 +46,7 @@ class Font
 		{
 			return "<span style=\"font-family: '$font'\">" . $text . "</span>";
 		}
-
+    
 		$font = htmlspecialchars(addslashes($font));
 		if (is_a($renderer, 'XF\BbCode\Renderer\Html'))
 		{
