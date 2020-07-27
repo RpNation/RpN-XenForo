@@ -48,7 +48,7 @@ class Font
 		}
 
 		$font = htmlspecialchars(addslashes($font));
-		if (is_subclass_of($renderer, 'XF\BbCode\Renderer\Html'))
+		if (is_a($renderer, 'XF\BbCode\Renderer\Html'))
 		{
 			$webfont = str_replace(' ', '+', $font);
 			if ($style != null)
