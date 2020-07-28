@@ -1,7 +1,0 @@
-{
-    "src/addons/Accordion/addon.json": "44356b88f102a343bc1e44fbdd5e43e94fa91690aa014caeb647407311051c4f",
-    "src/addons/Accordion/BbCode/Accordion.php": "000816e9a82a897a64d558b29a723b90fe38f1a11bcf40b06be2a7ef7318fcbf",
-    "src/addons/Accordion/_data/bb_codes.xml": "b20d4ea9965c06e7685ecc071bfdaa421550aa7a6039176a263e0292e68661b4",
-    "src/addons/Accordion/_data/phrases.xml": "8c4a43545d792b44cf324329b390f46f041e928925501fba5771ec9ee92da024",
-    "src/addons/Accordion/_data/templates.xml": "14400b96669dd4679b3038db45ec8d51440e95bffe925f45176abae12d60d7fa"
-}

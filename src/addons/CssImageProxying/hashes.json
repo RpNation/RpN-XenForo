@@ -1,6 +1,0 @@
-{
-    "src/addons/CssImageProxying/addon.json": "b4762b28a9d11407220610298a6c86a112734402daa9168d6c4931bbded99614",
-    "src/addons/CssImageProxying/BbCode/Utils.php": "8d9f6610ce788e26b803f7ef31eaeb12a96bfd96860b5376a1d8b985cc6c957b",
-    "src/addons/CssImageProxying/_data/bb_codes.xml": "a8b5addac88d728c3eb7b86a58646fbf0e8e6a935770e2cc4fa8fe6f9ef42c30",
-    "src/addons/CssImageProxying/_data/phrases.xml": "dd648bc572f2480bcc995d8b9a41e354e26c313990c9b49f60c47cc366f59d49"
-}

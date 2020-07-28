@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<phrases>
-  <phrase title="custom_bb_code_desc.fa" version_id="1" version_string="1.0.0"><![CDATA[This BBCode allows users to insert Font Awesome icons in posts.]]></phrase>
-  <phrase title="custom_bb_code_example.fa" version_id="1" version_string="1.0.0"><![CDATA[[fa]fa-address-book[/fa]]]></phrase>
-  <phrase title="custom_bb_code_output.fa" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_title.fa" version_id="1" version_string="1.0.0"><![CDATA[Font Awesome]]></phrase>
-</phrases>
