@@ -56,8 +56,9 @@ class Font
 			{
 				/* possible combinations: "weight" "###" "italic" "weight italic" "### italic" "weight ###" "weight ### italic" */
 				$style = str_replace(self::STYLES, self::WEIGHTS, str_replace('-', '', strtolower(trim($style))));
-
-				$wght = (preg_match('/[0-9]{3}/', $style, array $matches) ? end($matches) : 400;
+				$matches = array();
+				preg_match('/[0-9]{3}/', $style, $matches);
+				$wght = end($matches) ?: 400;
 				$ital = (stripos($style, 'italic') !== false) ? 1 : 0;
 				$fontstyle = ($ital === 1) ? 'italic' : 'normal';
 				$webfont .= ":ital,wght@$ital,$wght";
