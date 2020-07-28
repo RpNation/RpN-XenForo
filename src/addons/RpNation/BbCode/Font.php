@@ -41,9 +41,8 @@ class Font
 		{
 			return $text;
 		}
-		$font = strtolower(trim($font));
 
-		if (in_array($font, self::FONTS))		//matches default XF base fonts
+		if (in_array(strtolower(trim($font)), self::FONTS))		//matches default XF base fonts
 		{
 			return "<span style=\"font-family: '$font'\">" . $text . "</span>";
 		}
