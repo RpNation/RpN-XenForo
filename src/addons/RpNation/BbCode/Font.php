@@ -64,6 +64,6 @@ class Font
 			}
 			$renderer->getTemplater()->inlineJs("loadWebfont('$webfont');");
 		}
-		return "<span style=\"font-family: '$font'; font-style: '$fontstyle'; font-weight: '$wght';\">$text</span>";
+		return "<span style=\"font-family: '$font'; font-style: $fontstyle; font-weight: $wght;\">$text</span>";
 	}
 }
