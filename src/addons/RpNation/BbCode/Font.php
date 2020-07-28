@@ -23,10 +23,11 @@ class Font
 		$text = $renderer->renderSubTree($tagChildren, $options);
 		$font = null;
 		$style = null;
-		$fontweight = '400';
 		$fontstyle = 'normal';
+		$wght = null;
+		$ital = null;
 		
-		if (is_array($tagOption))
+		if (is_array($tagOption))		//expected [font name="fontname" style="weight"]
 		{
 			$font = $tagOption['name'] ?? $tagOption['family'] ?? "";
 			$style = $tagOption['style'] ?? null;
@@ -42,7 +43,7 @@ class Font
 		}
 		$font = strtolower(trim($font));
 
-		if (in_array($font, self::FONTS))
+		if (in_array($font, self::FONTS))		//matches default XF base fonts
 		{
 			return "<span style=\"font-family: '$font'\">" . $text . "</span>";
 		}
@@ -51,22 +52,18 @@ class Font
 		if (is_a($renderer, 'XF\BbCode\Renderer\Html'))
 		{
 			$webfont = str_replace(' ', '+', $font);
-			if ($style != null)
+			if ($style != null)			//tag contains style argument
 			{
-				$style = str_replace(self::STYLES, self::WEIGHTS, str_replace([' ', '-'], '', strtolower(trim($style))));
-				$webfont .= ':' . $style;
-				if (stripos($style, 'i') !== false)
-				{
-					$fontstyle = "italic";
-					$style = str_replace('i', '', $style);
-				}
-				if (strlen($style) !== 0)
-				{
-					$fontweight = trim($style);
-				}
+				/* possible combinations: "weight" "###" "italic" "weight italic" "### italic" "weight ###" "weight ### italic" */
+				$style = str_replace(self::STYLES, self::WEIGHTS, str_replace('-', '', strtolower(trim($style))));
+
+				$wght = (preg_match('/[0-9]{3}/', $style, array $matches) ? end($matches) : 400;
+				$ital = (stripos($style, 'italic') !== false) ? 1 : 0;
+				$fontstyle = ($ital === 1) ? 'italic' : 'normal';
+				$webfont .= ":ital,wght@$ital,$wght";
 			}
 			$renderer->getTemplater()->inlineJs("loadWebfont('$webfont');");
 		}
-		return "<span style=\"font-family: '$font'; font-style: '$fontstyle'; font-weight: '$fontweight';\">$text</span>";
+		return "<span style=\"font-family: '$font'; font-style: '$fontstyle'; font-weight: '$wght';\">$text</span>";
 	}
 }
