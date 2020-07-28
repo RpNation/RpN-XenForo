@@ -11,11 +11,11 @@ class Font
 	);
 
 	private const STYLES = array(
-		'thin', 'extralight', 'light', 'regular', 'medium', 'semibold', 'bold', 'extrabold', 'black', 'italic'
+		'thin', 'extralight', 'light', 'regular', 'medium', 'semibold', 'bold', 'extrabold', 'black'
 	);
 
 	private const WEIGHTS = array(
-		'100', '200', '300', '400', '500', '600', '700', '800', '900','i'
+		'100', '200', '300', '400', '500', '600', '700', '800', '900'
 	);
 
 	public static function renderFontTag($tagChildren, $tagOption, $tag, array $options, AbstractRenderer $renderer)
