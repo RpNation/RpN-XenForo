@@ -10,33 +10,11 @@ class Font
 		'arial', 'book antiqua', 'courier new', 'georgia', 'tahoma', 'times new roman', 'trebuchet ms', 'verdana'
 	);
 
-	private const STYLES = array(
-		'thin', 'extralight', 'light', 'regular', 'medium', 'semibold', 'bold', 'extrabold', 'black'
-	);
-
-	private const WEIGHTS = array(
-		'100', '200', '300', '400', '500', '600', '700', '800', '900'
-	);
-
 	public static function renderFontTag($tagChildren, $tagOption, $tag, array $options, AbstractRenderer $renderer)
 	{
 		$text = $renderer->renderSubTree($tagChildren, $options);
-		$font = null;
-		$style = null;
-		$fontstyle = 'normal';
-		$wght = null;
-		$ital = null;
-		
-		if (is_array($tagOption))		//expected [font name="fontname" style="weight"]
-		{
-			$font = $tagOption['name'] ?? $tagOption['family'] ?? "";
-			$style = $tagOption['style'] ?? null;
-		}
-		else
-		{
-			$font = $tagOption;
-		}
-		
+		$font = strtolower(trim($tagOption));
+
 		if (empty(trim($text)) || empty($font))
 		{
 			return $text;
@@ -46,24 +24,14 @@ class Font
 		{
 			return "<span style=\"font-family: '$font'\">" . $text . "</span>";
 		}
-    
-		$font = htmlspecialchars(addslashes($font));
-		if (is_a($renderer, 'XF\BbCode\Renderer\Html'))
+
+		$font = htmlspecialchars(addslashes(trim($tagOption)));
+		if (is_subclass_of($renderer, 'XF\BbCode\Renderer\Html'))
 		{
 			$webfont = str_replace(' ', '+', $font);
-			if ($style != null)			//tag contains style argument
-			{
-				/* possible combinations: "weight" "###" "italic" "weight italic" "### italic" "weight ###" "weight ### italic" */
-				$style = str_replace(self::STYLES, self::WEIGHTS, str_replace('-', '', strtolower(trim($style))));
-				$matches = array();
-				preg_match('/[0-9]{3}/', $style, $matches);
-				$wght = end($matches) ?: 400;
-				$ital = (stripos($style, 'italic') !== false) ? 1 : 0;
-				$fontstyle = ($ital === 1) ? 'italic' : 'normal';
-				$webfont .= ":ital,wght@$ital,$wght";
-			}
 			$renderer->getTemplater()->inlineJs("loadWebfont('$webfont');");
 		}
-		return "<span style=\"font-family: '$font'; font-style: $fontstyle; font-weight: $wght;\">$text</span>";
+		return "<span style=\"font-family: '$font';\">$text</span>";
+
 	}
 }
