@@ -20,18 +20,18 @@ class Font
 			return $text;
 		}
 
-		if (in_array(strtolower(trim($font)), self::FONTS))		//matches default XF base fonts
+		if (in_array($font, self::FONTS))
 		{
 			return "<span style=\"font-family: '$font'\">" . $text . "</span>";
 		}
 
 		$font = htmlspecialchars(addslashes(trim($tagOption)));
-		if (is_subclass_of($renderer, 'XF\BbCode\Renderer\Html'))
+
+		if (is_a($renderer, 'XF\BbCode\Renderer\Html'))
 		{
 			$webfont = str_replace(' ', '+', $font);
 			$renderer->getTemplater()->inlineJs("loadWebfont('$webfont');");
 		}
 		return "<span style=\"font-family: '$font';\">$text</span>";
-
 	}
 }
