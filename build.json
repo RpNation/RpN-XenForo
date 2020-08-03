@@ -1,0 +1,4 @@
+{
+  "additional_files": ["js/addons/accordion.js", "js/addons/google_fonts.js", "js/addons/tabs.js"],
+  "minify": "*"
+}
