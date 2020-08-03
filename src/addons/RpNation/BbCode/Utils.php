@@ -1,6 +1,6 @@
 <?php
 
-namespace CssImageProxying\BbCode;
+namespace RpNation\BbCode;
 
 use XF\BbCode\Renderer\AbstractRenderer;
 

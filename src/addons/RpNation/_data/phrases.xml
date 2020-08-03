@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phrases>
-  <phrase title="custom_bb_code_desc.bg" version_id="1" version_string="1.0.0"><![CDATA[Declare a background color.]]></phrase>
+<!-- Accordion -->
+  <phrase title="custom_bb_code_desc.accordion" version_id="1" version_string="1.0.0"><![CDATA[A customizable interactive accordion]]></phrase>
+  <phrase title="custom_bb_code_example.accordion" version_id="1" version_string="1.0.0"><![CDATA[[accordion=200]
+{slide=First Slide}First slide content{/slide}
+{slide=Second Slide}Second slide content{/slide}
+[/accordion]]]></phrase>
+  <phrase title="custom_bb_code_output.accordion" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.accordion" version_id="1" version_string="1.0.0"><![CDATA[Accordion]]></phrase>
+
+<!-- CssImageProxying -->
+   <phrase title="custom_bb_code_desc.bg" version_id="1" version_string="1.0.0"><![CDATA[Declare a background color.]]></phrase>
   <phrase title="custom_bb_code_desc.border" version_id="1" version_string="1.0.0"><![CDATA[Adds a border around a block of content.]]></phrase>
   <phrase title="custom_bb_code_desc.centerblock" version_id="1" version_string="1.0.0"><![CDATA[Centers a section of content in a block that is as wide as you declare it to be.]]></phrase>
   <phrase title="custom_bb_code_desc.heightrestrict" version_id="1" version_string="1.0.0"><![CDATA[Adds a height restriction to content.]]></phrase>
@@ -50,4 +60,29 @@ Mauris vestibulum ultrices urna eget varius. Nullam sodales lacus sit amet nisl 
   <phrase title="custom_bb_code_title.progress" version_id="1" version_string="1.0.0"><![CDATA[Progress]]></phrase>
   <phrase title="custom_bb_code_title.scroll" version_id="1" version_string="1.0.0"><![CDATA[Scroll Box]]></phrase>
   <phrase title="custom_bb_code_title.thinprogress" version_id="2" version_string="1.0.1"><![CDATA[Thin Progress]]></phrase>
+
+  <!-- Font Awesome -->
+  <phrase title="custom_bb_code_desc.fa" version_id="1" version_string="1.0.0"><![CDATA[This BBCode allows users to insert Font Awesome icons in posts.]]></phrase>
+  <phrase title="custom_bb_code_example.fa" version_id="1" version_string="1.0.0"><![CDATA[[fa]fa-address-book[/fa]]]></phrase>
+  <phrase title="custom_bb_code_output.fa" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.fa" version_id="1" version_string="1.0.0"><![CDATA[Font Awesome]]></phrase>
+
+  <!-- Google Fonts -->
+  <phrase title="custom_bb_code_desc.font" version_id="1" version_string="1.0.0"><![CDATA[Extends the standard font tag with Google Fonts support.]]></phrase>
+  <phrase title="custom_bb_code_example.font" version_id="1" version_string="1.0.0"><![CDATA[[FONT=Lobster]Lobster font[/FONT]]]></phrase>
+  <phrase title="custom_bb_code_output.font" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.font" version_id="1" version_string="1.0.0"><![CDATA[Font (with Google Fonts support)]]></phrase>
+
+  <!-- Tabs -->
+  <phrase title="custom_bb_code_desc.tab" version_id="1" version_string="1.0.0"><![CDATA[Render the content for a single tab. This is not to be used directly.]]></phrase>
+  <phrase title="custom_bb_code_desc.tabs" version_id="1" version_string="1.0.0"><![CDATA[Render Tabs into a post]]></phrase>
+  <phrase title="custom_bb_code_example.tab" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.tabs" version_id="1" version_string="1.0.0"><![CDATA[[tabs]
+	[tab=Title 1]Content 1[/tab]
+	[tab=Title 2]Content 2[/tab]	
+[/tabs]]]></phrase>
+  <phrase title="custom_bb_code_output.tab" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.tabs" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.tab" version_id="1" version_string="1.0.0"><![CDATA[Tab]]></phrase>
+  <phrase title="custom_bb_code_title.tabs" version_id="1" version_string="1.0.0"><![CDATA[Tabs]]></phrase>
 </phrases>

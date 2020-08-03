@@ -1,6 +1,6 @@
 <?php
 
-namespace Accordion\BbCode;
+namespace RpNation\BbCode;
 
 use DOMDocument;
 use XF\BbCode\Renderer\AbstractRenderer;

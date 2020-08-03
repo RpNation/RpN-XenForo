@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bb_codes>
+<!-- Accordion -->
+  <bb_code bb_code_id="accordion" bb_code_mode="callback" has_option="optional" callback_class="RpNation\BbCode\Accordion" callback_method="renderAccordionTag" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+
+  <!-- CssImageProxying -->
+   <bb_code bb_code_id="bg" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="border" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="centerblock" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="heightrestrict" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="progress" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="scroll" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="thinprogress" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+
+  <!-- Font Awesome -->
+   <bb_code bb_code_id="fa" bb_code_mode="callback" has_option="no" callback_class="RpNation\BbCode\FontAwesome" callback_method="renderTagWithFontAwesome" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+
+  <!-- Google Fonts -->
+    <bb_code bb_code_id="font" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Font" callback_method="renderFontTag" option_regex="/^[a-z0-9 \-]+$/i" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="1" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+
+  <!-- Tabs -->
+  <bb_code bb_code_id="tab" bb_code_mode="callback" has_option="optional" callback_class="RpNation\BbCode\Tabs" callback_method="renderSingleTabCode" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="tabs" bb_code_mode="callback" has_option="no" callback_class="RpNation\BbCode\Tabs" callback_method="renderTabsCode" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+</bb_codes>

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tabs\BbCode;
+namespace RpNation\BbCode;
 
 use XF;
 use XF\BbCode\Renderer\AbstractRenderer;
