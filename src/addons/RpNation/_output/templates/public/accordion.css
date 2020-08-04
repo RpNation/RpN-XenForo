@@ -1,0 +1,55 @@
+.accordion {
+	border-top: 1px solid rgb(144, 164, 174);
+	border-bottom: 1px solid rgb(144, 164, 174);
+	margin-left: 0 !important;
+}
+.accordion dt {
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 13px;
+	color: rgb(0, 0, 0);
+	background: rgb(245, 245, 245) url('styles/addons/accordion/accordion-title-gradient.png') repeat-x top;
+	padding: 6px;
+	border-right: 1px solid rgb(144, 164, 174);
+	border-bottom: 1px double #FFF;
+	border-left: 1px solid rgb(144, 164, 174);
+	cursor: pointer;
+	position: relative;
+	*zoom: 1;
+/*IE6*/
+}
+.accordion dt.last {
+	border-bottom: 0 !important;
+}
+.accordion dt:hover, .accordion dt.active {
+	background: rgb(226, 228, 229) url('styles/addons/accordion/accordion-title-gradient.png') repeat-x top;
+}
+.accordion dd {
+	background-color: #FFF;
+	padding: 6px;
+	border-right: 1px solid rgb(144, 164, 174);
+	border-left: 1px solid rgb(144, 164, 174);
+	margin-left: 0 !important;
+	position: relative;
+/*IE7*/
+}
+.accordion.bleft {
+	margin-left:0 !important;
+	margin-right:auto !important;
+}
+.accordion.bcenter {
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+.accordion.bright {
+	margin-left:auto !important;
+	margin-right:0 !important;
+}
+.accordion.fleft {
+	float:left;
+	margin:1px 10px 0 0 !important;
+}
+.accordion.fright {
+	float:right;
+	margin:1px 0 0 10px !important;
+}
