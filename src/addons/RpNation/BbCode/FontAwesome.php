@@ -11,19 +11,19 @@ class FontAwesome
 	public static function renderTagWithFontAwesome($tagChildren, $tagOption, $tag, array $options, AbstractRenderer $renderer)
 	{
 		$text = htmlspecialchars($renderer->renderSubTreePlain($tagChildren));
-		$parts = explode(' ', $text);
+		$parts = explode(' ', strtolower($text));
 		$prefix_exists = false;
 		$duotone = false;
 		$duotone_options= "";
 
 		foreach ($parts as $part)
 		{
-			if (in_array(strtolower($part), self::FA_PREFIXES))
+			if (in_array($part, self::FA_PREFIXES))
 			{
 				$prefix_exists = true;
 				break;
 			}
-			if (in_array(strtolower($part), "fad"))
+			if ($part == "fad")
 			{
 				$duotone = true;
 				break;
