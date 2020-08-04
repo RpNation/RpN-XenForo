@@ -1,0 +1,171 @@
+.tabsBb ul {
+	list-style: none;
+}
+
+.tabsBb ul.mainTabsBb {
+	border-bottom: 0;
+	background: transparent;
+	margin: 0 0 0 20px;
+	width: calc(100% - 20px);
+}
+
+.tabsBb ul.tabsBbTitles li.bbTab, .tabsBb ul.tabsBbContent li.bbTabContent {
+	list-style: none outside none;
+}
+
+.tabsBb ul.tabsBbTitles li {
+	clear: none;
+	margin-right: 10px;
+}
+
+.tabsBb .tabsBbTitles.mainTabsBb li.active a {
+	background: #FFF;
+}
+
+.tabsBb .tabsBbTitles.mainTabsBb li a {
+    font-weight: bold;
+    height: 22px;
+    line-height: 22px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+
+
+.tabsBb ul.tabsBbContent {
+	border: rgb(245, 245, 245) 1px solid;
+	margin: -1px 0 0 10px;
+	padding: 10px;
+	border-top: rgb(245, 245, 245) 5px solid;
+}
+
+.tabsBbTitles {
+    font-size: 13px;
+    background-repeat: repeat-x;
+    background-position: top;
+    padding: 0;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    word-wrap: normal;
+    min-height: 30px;
+    _height: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: table;
+    width: 100%;
+    *width: auto;
+    box-sizing: border-box !important;
+}
+
+.tabsBbTitles li {
+    float: left
+}
+
+.tabsBbTitles li a, .tabsBbTitles.noLinks li {
+    color: rgb(144, 164, 174);
+    text-decoration: none;
+    padding: 0 16px;
+    border: 0 solid rgb(224, 224, 224);
+    border-bottom: 2px solid transparent;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    display: inline-block;
+    line-height: 48px;
+    cursor: pointer;
+    outline: 0 none;
+    white-space: nowrap;
+    word-wrap: normal;
+    flex-grow: 1;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    height: 48px
+}
+
+.tabsBbTitles li:hover a, .tabsBbTitles.noLinks li:hover {
+    color: rgb(55, 71, 79);
+    text-decoration: none;
+    text-decoration: none
+}
+
+.tabsBbTitles li.active a, .tabsBbTitles.noLinks li.active {
+    color: rgb(55, 71, 79);
+    border-bottom: 2px solid rgb(33, 150, 243)
+}
+
+.xenForm .tabsBbTitles {
+    padding: 5px 30px 0
+}
+
+@media (max-width: 480px) {
+    .Responsive .tabsBbTitles li {
+        float:none
+    }
+
+    .Responsive .tabsBbTitles li a, .Responsive .tabsBbTitles.noLinks li {
+        display: block
+    }
+
+    .Responsive .tabsBbTitles {
+        display: flex;
+        display: -webkit-flex;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap
+    }
+
+    .Responsive .tabsBbTitles li {
+        flex-grow: 1;
+        -webkit-flex-grow: 1;
+        text-align: center
+    }
+
+    .Responsive .xenForm .tabsBbTitles {
+        padding-left: 10px;
+        padding-right: 10px
+    }
+}
+
+body .tabsBb ul.tabsBbContent {
+    margin-top: 10px;
+    border-top: 3px solid rgb(96, 125, 139);
+    border-bottom: 1px solid rgb(96, 125, 139);
+    border-left: none;
+    border-right: none
+}
+
+body .tabsBb li.active, body .tabsBb li {
+    margin-bottom: 5px
+}
+
+body .tabsBb .bbTab.active a, body .tabsBb .bbTab a {
+    color: #FFF;
+    padding-bottom: 0;
+    border: 1px solid rgb(84, 110, 122);
+    box-shadow: none;
+    background: rgb(120, 144, 156)
+}
+
+body .tabsBb li.active a {
+    background: rgb(138, 162, 174) !important
+}
+
+body .tabsBb li.active a:hover, body .tabsBb li a:hover {
+    border: 1px solid rgb(84, 110, 122);
+    box-shadow: none;
+    background: rgb(96, 125, 139);
+    color: #FFF
+}
+
+body .tabsBb li.active a:focus, body .tabsBb li a:focus {
+    border: 1px solid rgb(84, 110, 122);
+    box-shadow: none;
+    background: rgb(96, 125, 139);
+    color: #FFF;
+    margin-top: 0
+}
+
+.tabsBb ul.tabsBbContent li.bbTabContent {
+    overflow: hidden
+}

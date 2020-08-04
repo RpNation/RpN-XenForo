@@ -1,0 +1,24 @@
+<xf:css src="accordion.css" />
+<xf:js src="addons/accordion.js" />
+<xf:if is="$slides is not empty">
+	<dl
+		class="accordion {$blockAlign}"
+		data-duration="400"
+		data-xf-init="accordion"
+		style="display:block;width:{$width}{$widthType};"
+	>
+		<xf:foreach loop="$slides" value="$slide" i="$i" count="$total">
+			<xf:set var="$slideClass"><xf:if is="$i == 1">first<xf:elseif is="$i == $total" />last<xf:else />between</xf:if></xf:set>
+			<dt class="{$slideClass} {$slide.class_open}" 
+				style="text-align:{$slide.align};">
+				<xf:if is="$slide.title is not empty">{$slide.title|raw}<xf:else />{{phrase('accordion_text_slide')}}{$i}</xf:if>
+			</dt>
+			<dd class="{$slideClass} {$slide.open} {$slide.class_open}"
+				style="{{ $slide.height ? 'height:' . $slide.height . 'px;overflow-x:hidden;overflow-y:auto;' : ''}}">
+				{$slide.content|raw}
+			</dd>	
+		</xf:foreach>
+	</dl>
+<xf:else />
+	no slide
+</xf:if>
