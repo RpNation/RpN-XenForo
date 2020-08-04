@@ -1,0 +1,9 @@
+{
+    "template": "core_bbcode.less",
+    "description": "This modification adds the BBCode CSS into the system.",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "#$#",
+    "replace": "$0\n{{ include('rpnbbcode.less') }}"
+}
