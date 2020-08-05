@@ -23,12 +23,21 @@ Digital...................BBCODE-015
 Print.....................BBCODE-016
 Text Message..............BBCODE-017
 
-Block & Steps.............BBCODE-018
+Block & Step..............BBCODE-018
 Progress..................BBCODE-019
 Thin Progress.............BBCODE-020
 
 Note......................BBCODE-021
 Image Restriction.........BBCODE-022
+Check.....................BBCODE-023
+
+Newspaper.................BBCODE-024
+Background................BBCODE-025
+Border....................BBCODE-026
+
+CenterBlock...............BBCODE-027
+Email.....................BBCODE-028
+Thread....................BBCODE=029
 */
 
 /*************************************************
@@ -1178,46 +1187,6 @@ body .tabsBb li.active a {
 		}
 
 /*************************************************
-*** Thread                           BBCODE-022***
-*************************************************/
-
-.bbcode-thread {
-	width: 80%;
-	height: 40px;
-	margin: 0 auto;
-	border-radius: 10px;
-	color: @xf-paletteColor3;
-	display: none;
-}
-
-	.staff .bbcode-thread {
-		display: block;
-	}
-
-.bbcode-thread-Closed {
-	background: #940A0A url('/styles/bbcodeassets/lockedthread.png') 15px 50% no-repeat;
-}
-
-.bbcode-thread-Stickied {
-	background: #BF7E00 url('/styles/bbcodeassets/stickiedthread.png') 15px 50% no-repeat;
-}
-
-.bbcode-thread .bbcode-thread-declare {
-	height: 40px;
-	line-height: 40px;
-	margin-left: 40px;
-	display: inline-block;
-}
-.bbcode-thread .bbcode-thread-content {
-	margin-right: 40px;
-	height: 40px;
-	line-height: 40px;
-	display: inline-block;
-	font-style: italic;
-	float: right;
-}
-
-/*************************************************
 *** Image Restrict                   BBCODE-022***
 *************************************************/
 
@@ -1312,7 +1281,7 @@ body .tabsBb li.active a {
 }
 
 /*************************************************
-*** Email                            BBCODE-027***
+*** Email                            BBCODE-028***
 *************************************************/
 .bbcode-email {
 	border: 1px solid @xf-paletteColor3;
@@ -1414,3 +1383,44 @@ body .tabsBb li.active a {
 	.bbcode-email-receive .bbcode-email-button:before {
 		content: "Reply";
 	}
+
+
+/*************************************************
+*** Thread                           BBCODE-029***
+*************************************************/
+
+.bbcode-thread {
+	width: 80%;
+	height: 40px;
+	margin: 0 auto;
+	border-radius: 10px;
+	color: @xf-paletteColor3;
+	display: none;
+}
+
+	.staff .bbcode-thread {
+		display: block;
+	}
+
+.bbcode-thread-Closed {
+	background: #940A0A url('/styles/bbcodeassets/lockedthread.png') 15px 50% no-repeat;
+}
+
+.bbcode-thread-Stickied {
+	background: #BF7E00 url('/styles/bbcodeassets/stickiedthread.png') 15px 50% no-repeat;
+}
+
+.bbcode-thread .bbcode-thread-declare {
+	height: 40px;
+	line-height: 40px;
+	margin-left: 40px;
+	display: inline-block;
+}
+.bbcode-thread .bbcode-thread-content {
+	margin-right: 40px;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+	font-style: italic;
+	float: right;
+}	
