@@ -1,7 +1,7 @@
 .accordion {
 	border-top: 1px solid rgb(144, 164, 174);
 	border-bottom: 1px solid rgb(144, 164, 174);
-	margin-left: 0 !important;
+	margin: 0;
 }
 .accordion dt {
 	font-variant: small-caps;
@@ -17,6 +17,9 @@
 	position: relative;
 	*zoom: 1;
 /*IE6*/
+}
+.accordion .bbcode-background {
+	margin: -6px;
 }
 .accordion dt.last {
 	border-bottom: 0 !important;
