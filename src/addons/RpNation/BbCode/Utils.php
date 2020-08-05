@@ -9,7 +9,7 @@ class Utils
 	private const HTTP_URL = '#(url\s*\(\s*(?:["\']|&quot;)?\s*)(https?:.+?)(\s*(?:["\']|&quot;)?\s*\))#i';
 
 	private const TAGS = [
-		'bg' => '<div class="bbcode-background" style="background-color: {option};"><div class="bbcode-background-text">{text}</div></div>',
+		'bg' => '<div class="bbcode-background" style="background-color: {option};">{text}</div>',
 		'border' => '<div class="bbcode-border" style="border: {option};">{text}</div>',
 		'centerblock' => '<div class="bbcode-centerblock" style="width: {option}%;">{text}</div>',
 		'heightrestrict' => '<div class="bbcode-height-restrict" style="height: {option}px;">{text}</div>',
