@@ -1,31 +1,35 @@
 .accordion {
-	border: 1px solid @xf-paletteNeutral2;
+	border: 1px solid @xf-paletteColor4;
 	margin: 0;
 }
 .accordion dt {
 	font-variant: small-caps;
 	font-weight: bold;
 	font-size: 13px;
-	color: rgb(0, 0, 0);
-	background-color: rgb(245, 245, 245);
+	color: @xf-paletteColor4;
+	background-color: @xf-paletteNeutral1;
 	padding: 6px;
-	border-bottom: 1px double #FFF;
+	border-top: 1px solid @xf-paletteColor4;
 	cursor: pointer;
 	position: relative;
 	*zoom: 1;
 /*IE6*/
 }
+.accordion dt.accordion-slide-active{
+	background-color: @xf-paletteColor4;
+	color: @xf-paletteNeutral1;
+}
 .accordion .bbcode-background {
 	margin: -6px;
 }
-.accordion dt.last {
-	border-bottom: 0 !important;
+.accordion dt.first {
+	border-top: 0 !important;
 }
 .accordion dt:hover, .accordion dt.active {
-	background-color: rgb(226, 228, 229);
+	background-color: @xf-paletteColor4;
+	color: @xf-paletteNeutral1;
 }
 .accordion dd {
-	background-color: #FFF;
 	padding: 6px;
 	margin-left: 0 !important;
 	position: relative;
