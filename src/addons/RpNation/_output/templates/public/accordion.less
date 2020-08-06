@@ -3,7 +3,6 @@
 	margin: 0;
 }
 .accordion dt {
-	font-variant: small-caps;
 	font-weight: bold;
 	font-size: 13px;
 	color: @xf-paletteColor5;
@@ -19,7 +18,10 @@
 	background-color: @xf-paletteColor5;
 	color: @xf-paletteNeutral1;
 }
-.accordion .bbcode-background, .accordion .bbcode-border {
+.accordion dt > .bbcode-background,
+.accordion dt > .bbcode-border,
+.accordion dd > .bbcode-background,
+.accordion dd > .bbcode-border {
 	margin: -7px;
 }
 .accordion dt.first {
