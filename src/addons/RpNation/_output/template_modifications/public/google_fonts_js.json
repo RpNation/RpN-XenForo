@@ -1,0 +1,9 @@
+{
+    "template": "helper_js_global",
+    "description": "JavaScript for Google Fonts",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--XF:JS-->",
+    "replace": "<xf:js src=\"addons/google_fonts.js\" />\n<!--XF:JS-->"
+}

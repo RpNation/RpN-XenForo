@@ -1,0 +1,9 @@
+{
+    "template": "helper_js_global",
+    "description": "CSS for Tabs",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--XF:CSS-->",
+    "replace": "<!--XF:CSS-->\n<xf:css src=\"tabs.css\" />"
+}
