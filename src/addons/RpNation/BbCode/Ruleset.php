@@ -8,6 +8,6 @@ class RuleSet extends XFCP_RuleSet
     {
         parent::addDefaultTags();
 
-        $this->tags['font']['supportOptionKeys'] = RuleSet::OPTION_KEYS_BOTH;
+        $this->modifyTag('font', ['supportOptionKeys' => Ruleset::OPTION_KEYS_BOTH]);
     }
 }
