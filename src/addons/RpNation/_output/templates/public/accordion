@@ -1,4 +1,4 @@
-<xf:css src="accordion.css" />
+<xf:css src="accordion.less" />
 <xf:js src="addons/accordion.js" />
 <xf:if is="$slides is not empty">
 	<dl
