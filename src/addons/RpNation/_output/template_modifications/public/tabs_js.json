@@ -1,0 +1,9 @@
+{
+    "template": "helper_js_global",
+    "description": "JavaScript for Tabs",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<!--XF:JS-->",
+    "replace": "<!--XF:JS-->\n<xf:js src=\"addons/tabs.js\" />"
+}
