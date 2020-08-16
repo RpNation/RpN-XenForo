@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<class_extensions>
-  <extension from_class="XF\BbCode\Parser" to_class="BbCodePlus\XF\BbCode\Parser" execute_order="10" active="1"/>
-  <extension from_class="XF\BbCode\Processor" to_class="BbCodePlus\XF\BbCode\Processor" execute_order="10" active="1"/>
-  <extension from_class="XF\BbCode\Renderer\Html" to_class="BbCodePlus\XF\BbCode\Renderer\Html" execute_order="10" active="1"/>
-  <extension from_class="XF\BbCode\RuleSet" to_class="BbCodePlus\XF\BbCode\RuleSet" execute_order="10" active="1"/>
-  <extension from_class="XF\SubContainer\BbCode" to_class="BbCodePlus\XF\SubContainer\BbCode" execute_order="10" active="1"/>
-</class_extensions>
