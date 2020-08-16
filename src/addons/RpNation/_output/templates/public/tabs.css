@@ -169,3 +169,11 @@ body .tabsBb li.active a:focus, body .tabsBb li a:focus {
 .tabsBb ul.tabsBbContent li.bbTabContent {
     overflow: hidden
 }
+
+/* Allow bullet points to properly render inside
+* Check to make sure it doesn't do weird stuff
+*/
+
+li.bbTabContent > ul{
+    list-style-type: revert;
+}
