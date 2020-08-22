@@ -1,0 +1,3 @@
+[message=left]Hi :)[/message]
+[message=right]Who is this?[/message]
+[message=left]Lol, It's me silly.[/message]

@@ -1,0 +1,20 @@
+{
+    "bb_code_mode": "replace",
+    "has_option": "yes",
+    "replace_html": "<table class=\"bbcode-block bbcode-block-{option}\"><tr><td class=\"bbcode-block-icon\"></td><td class=\"bbcode-block-content\">{text}</td></tr></table>",
+    "replace_html_email": "",
+    "replace_text": "",
+    "callback_class": "",
+    "callback_method": "",
+    "option_regex": "",
+    "trim_lines_after": 1,
+    "plain_children": false,
+    "disable_smilies": false,
+    "disable_nl2br": false,
+    "disable_autolink": false,
+    "allow_empty": false,
+    "allow_signature": false,
+    "editor_icon_type": "",
+    "editor_icon_value": "",
+    "active": true
+}

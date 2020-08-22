@@ -1,79 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
 <phrases>
-  <phrase title="custom_bb_code_desc.accordion" version_id="1" version_string="1.0.0"><![CDATA[A customizable interactive accordion]]></phrase>
-  <phrase title="custom_bb_code_desc.bg" version_id="1" version_string="1.0.0"><![CDATA[Declare a background color.]]></phrase>
-  <phrase title="custom_bb_code_desc.border" version_id="1" version_string="1.0.0"><![CDATA[Adds a border around a block of content.]]></phrase>
-  <phrase title="custom_bb_code_desc.centerblock" version_id="1" version_string="1.0.0"><![CDATA[Centers a section of content in a block that is as wide as you declare it to be.]]></phrase>
-  <phrase title="custom_bb_code_desc.fa" version_id="1" version_string="1.0.0"><![CDATA[This BBCode allows users to insert Font Awesome icons in posts.]]></phrase>
+  <phrase title="custom_bb_code_desc.a" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.bgimg" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.block" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.blockquote" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.check" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.colorprogress" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.column" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.comment" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.data" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.digital" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.divide" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.doublepost" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.fastack" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.fieldset" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_desc.font" version_id="1" version_string="1.0.0"><![CDATA[Extends the standard font tag with Google Fonts support.]]></phrase>
-  <phrase title="custom_bb_code_desc.heightrestrict" version_id="1" version_string="1.0.0"><![CDATA[Adds a height restriction to content.]]></phrase>
-  <phrase title="custom_bb_code_desc.progress" version_id="1" version_string="1.0.0"><![CDATA[Creates a styled progress bar.]]></phrase>
-  <phrase title="custom_bb_code_desc.scroll" version_id="1" version_string="1.0.0"><![CDATA[This BBCode lets you create scroll boxes.]]></phrase>
-  <phrase title="custom_bb_code_desc.tab" version_id="1" version_string="1.0.0"><![CDATA[Render the content for a single tab. This is not to be used directly.]]></phrase>
-  <phrase title="custom_bb_code_desc.tabs" version_id="1" version_string="1.0.0"><![CDATA[Render Tabs into a post]]></phrase>
-  <phrase title="custom_bb_code_desc.thinprogress" version_id="2" version_string="1.0.1"><![CDATA[Creates a thin styled progress bar.]]></phrase>
-  <phrase title="custom_bb_code_example.accordion" version_id="1" version_string="1.0.0"><![CDATA[[accordion=200]
-{slide=First Slide}First slide content{/slide}
-{slide=Second Slide}Second slide content{/slide}
-[/accordion]]]></phrase>
-  <phrase title="custom_bb_code_example.bg" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_example.border" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_example.centerblock" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_example.fa" version_id="1" version_string="1.0.0"><![CDATA[[fa]fa-address-book[/fa]]]></phrase>
+  <phrase title="custom_bb_code_desc.gdoc" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.goto" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.graph" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.h" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.highlight" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.imagefloat" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.inlinespoiler" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.justify" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.mail" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.message" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.newspaper" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.note" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.ooc" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.person" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.pindent" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.print" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.row" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.sh" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.side" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.step" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.sub" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.subject" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.table" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.td" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.textmessage" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.tf" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.th" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.thread" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_desc.tr" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.a" version_id="1" version_string="1.0.0"><![CDATA[[a=anchor]This is an anchor that can be jumped to[/a]]]></phrase>
+  <phrase title="custom_bb_code_example.bgimg" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.block" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.blockquote" version_id="1" version_string="1.0.0"><![CDATA[[blockquote=Quote Giver]Text Goes here[/blockquote]]]></phrase>
+  <phrase title="custom_bb_code_example.check" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.colorprogress" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.column" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.comment" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.data" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.digital" version_id="1" version_string="1.0.0"><![CDATA[[digital]This is Digital[/digital]
+[digital=textmessage]This is Digital[/digital]]]></phrase>
+  <phrase title="custom_bb_code_example.divide" version_id="1" version_string="1.0.0"><![CDATA[[divide]More Below[/divide]
+[divide=thick]More Below[/divide]
+[divide=dotted]More Below[/divide]
+[divide=dotted-thick]More Below[/divide]]]></phrase>
+  <phrase title="custom_bb_code_example.doublepost" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.fastack" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.fieldset" version_id="1" version_string="1.0.0"><![CDATA[[fieldset=This is a Fieldset]important text here[/fieldset]]]></phrase>
   <phrase title="custom_bb_code_example.font" version_id="1" version_string="1.0.0"><![CDATA[[FONT=Lobster]Lobster font[/FONT]]]></phrase>
-  <phrase title="custom_bb_code_example.heightrestrict" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_example.progress" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_example.scroll" version_id="1" version_string="1.0.0"><![CDATA[[scroll=75px]
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget dictum erat. Nam dictum ex est, quis ullamcorper dolor ultricies eu. In tincidunt luctus velit, ac porttitor velit viverra in. Curabitur vitae pellentesque velit. Suspendisse consectetur dolor eget enim dignissim elementum sit amet in odio. Phasellus placerat, leo id venenatis eleifend, metus lacus eleifend felis, vel pretium augue orci ac diam. Mauris feugiat, sem a lacinia tincidunt, turpis purus feugiat ligula, nec semper urna ligula non ante. Vivamus tristique nisl a mauris lacinia interdum. Vestibulum tempus convallis ante id tincidunt. Aenean sit amet velit blandit, molestie metus eget, mollis magna. Nam fringilla dui id dui molestie, at dignissim turpis euismod. Fusce scelerisque augue ut nibh ultricies volutpat.
-
-Mauris vestibulum ultrices urna eget varius. Nullam sodales lacus sit amet nisl pulvinar, ut cursus lorem varius. Nullam placerat nisi nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla nec velit vestibulum, accumsan sem at, sodales dolor. Mauris et velit in nisi blandit tempus. Proin at posuere neque. Proin elementum quis magna at dictum. Integer placerat iaculis lacus et vestibulum. Nulla non odio tellus. Praesent sapien purus, sollicitudin eget volutpat sed, dapibus sed dui. Cras in nibh arcu. Phasellus tempor nunc sit amet dolor vehicula semper.
-
-Curabitur porta augue quam. Suspendisse sapien enim, semper eu aliquet sit amet, efficitur at nisi. Duis vulputate rutrum tempor. Nullam interdum laoreet nunc eu ultrices. Nulla fermentum a lacus sed efficitur. Aliquam ullamcorper, arcu euismod dictum rutrum, metus tortor commodo eros, in suscipit enim purus eget arcu. Suspendisse vehicula sem quis tortor accumsan pulvinar. Suspendisse a lobortis elit. Phasellus molestie porta enim, eu aliquet nibh imperdiet sit amet. Vestibulum justo eros, lobortis ac ipsum nec, commodo venenatis nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam maximus sagittis turpis, vitae luctus libero hendrerit eget.
-
-Mauris vitae lacus nec urna blandit bibendum. Proin egestas mauris et porta consequat. Maecenas consectetur hendrerit viverra. Curabitur bibendum ultrices nisl accumsan congue. In semper nec enim in efficitur. Vivamus suscipit, urna eget vulputate interdum, velit lacus bibendum neque, nec faucibus neque augue quis nulla. In hac habitasse platea dictumst. Donec mollis, mi eu dapibus interdum, sapien tellus convallis turpis, ut feugiat mauris nibh sit amet quam. Vestibulum eu aliquam mi, id vehicula leo. Maecenas felis est, consequat vitae euismod vel, aliquam ac magna. Aenean pulvinar hendrerit velit, et blandit enim. Phasellus dapibus, risus ut molestie facilisis, sapien nulla tincidunt nibh, a sagittis urna diam vitae metus. Proin vel enim in erat efficitur accumsan.
-
-Nunc velit leo, sodales sit amet fringilla et, rutrum et erat. In maximus tellus eu feugiat mollis. Nullam nec tortor id neque elementum ultricies. Nunc laoreet eleifend arcu, quis interdum odio cursus dapibus. Vestibulum ligula odio, varius sit amet massa eget, viverra laoreet enim. Nullam eget lectus non magna mattis ornare et sit amet dolor. Sed quam magna, vulputate non libero ac, sollicitudin ultricies arcu. Duis id auctor felis. Morbi non dui a turpis porta aliquam. Vestibulum sollicitudin nulla et augue consequat venenatis. Nunc non imperdiet felis. Praesent pulvinar erat mauris. Fusce scelerisque et enim eleifend ultrices.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget dictum erat. Nam dictum ex est, quis ullamcorper dolor ultricies eu. In tincidunt luctus velit, ac porttitor velit viverra in. Curabitur vitae pellentesque velit. Suspendisse consectetur dolor eget enim dignissim elementum sit amet in odio. Phasellus placerat, leo id venenatis eleifend, metus lacus eleifend felis, vel pretium augue orci ac diam. Mauris feugiat, sem a lacinia tincidunt, turpis purus feugiat ligula, nec semper urna ligula non ante. Vivamus tristique nisl a mauris lacinia interdum. Vestibulum tempus convallis ante id tincidunt. Aenean sit amet velit blandit, molestie metus eget, mollis magna. Nam fringilla dui id dui molestie, at dignissim turpis euismod. Fusce scelerisque augue ut nibh ultricies volutpat.
-
-Mauris vestibulum ultrices urna eget varius. Nullam sodales lacus sit amet nisl pulvinar, ut cursus lorem varius. Nullam placerat nisi nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla nec velit vestibulum, accumsan sem at, sodales dolor. Mauris et velit in nisi blandit tempus. Proin at posuere neque. Proin elementum quis magna at dictum. Integer placerat iaculis lacus et vestibulum. Nulla non odio tellus. Praesent sapien purus, sollicitudin eget volutpat sed, dapibus sed dui. Cras in nibh arcu. Phasellus tempor nunc sit amet dolor vehicula semper.
-
-Curabitur porta augue quam. Suspendisse sapien enim, semper eu aliquet sit amet, efficitur at nisi. Duis vulputate rutrum tempor. Nullam interdum laoreet nunc eu ultrices. Nulla fermentum a lacus sed efficitur. Aliquam ullamcorper, arcu euismod dictum rutrum, metus tortor commodo eros, in suscipit enim purus eget arcu. Suspendisse vehicula sem quis tortor accumsan pulvinar. Suspendisse a lobortis elit. Phasellus molestie porta enim, eu aliquet nibh imperdiet sit amet. Vestibulum justo eros, lobortis ac ipsum nec, commodo venenatis nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam maximus sagittis turpis, vitae luctus libero hendrerit eget.
-
-Mauris vitae lacus nec urna blandit bibendum. Proin egestas mauris et porta consequat. Maecenas consectetur hendrerit viverra. Curabitur bibendum ultrices nisl accumsan congue. In semper nec enim in efficitur. Vivamus suscipit, urna eget vulputate interdum, velit lacus bibendum neque, nec faucibus neque augue quis nulla. In hac habitasse platea dictumst. Donec mollis, mi eu dapibus interdum, sapien tellus convallis turpis, ut feugiat mauris nibh sit amet quam. Vestibulum eu aliquam mi, id vehicula leo. Maecenas felis est, consequat vitae euismod vel, aliquam ac magna. Aenean pulvinar hendrerit velit, et blandit enim. Phasellus dapibus, risus ut molestie facilisis, sapien nulla tincidunt nibh, a sagittis urna diam vitae metus. Proin vel enim in erat efficitur accumsan.
-
-Nunc velit leo, sodales sit amet fringilla et, rutrum et erat. In maximus tellus eu feugiat mollis. Nullam nec tortor id neque elementum ultricies. Nunc laoreet eleifend arcu, quis interdum odio cursus dapibus. Vestibulum ligula odio, varius sit amet massa eget, viverra laoreet enim. Nullam eget lectus non magna mattis ornare et sit amet dolor. Sed quam magna, vulputate non libero ac, sollicitudin ultricies arcu. Duis id auctor felis. Morbi non dui a turpis porta aliquam. Vestibulum sollicitudin nulla et augue consequat venenatis. Nunc non imperdiet felis. Praesent pulvinar erat mauris. Fusce scelerisque et enim eleifend ultrices.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget dictum erat. Nam dictum ex est, quis ullamcorper dolor ultricies eu. In tincidunt luctus velit, ac porttitor velit viverra in. Curabitur vitae pellentesque velit. Suspendisse consectetur dolor eget enim dignissim elementum sit amet in odio. Phasellus placerat, leo id venenatis eleifend, metus lacus eleifend felis, vel pretium augue orci ac diam. Mauris feugiat, sem a lacinia tincidunt, turpis purus feugiat ligula, nec semper urna ligula non ante. Vivamus tristique nisl a mauris lacinia interdum. Vestibulum tempus convallis ante id tincidunt. Aenean sit amet velit blandit, molestie metus eget, mollis magna. Nam fringilla dui id dui molestie, at dignissim turpis euismod. Fusce scelerisque augue ut nibh ultricies volutpat.
-
-Mauris vestibulum ultrices urna eget varius. Nullam sodales lacus sit amet nisl pulvinar, ut cursus lorem varius. Nullam placerat nisi nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla nec velit vestibulum, accumsan sem at, sodales dolor. Mauris et velit in nisi blandit tempus. Proin at posuere neque. Proin elementum quis magna at dictum. Integer placerat iaculis lacus et vestibulum. Nulla non odio tellus. Praesent sapien purus, sollicitudin eget volutpat sed, dapibus sed dui. Cras in nibh arcu. Phasellus tempor nunc sit amet dolor vehicula semper.
-[/scroll]]]></phrase>
-  <phrase title="custom_bb_code_example.tab" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_example.tabs" version_id="1" version_string="1.0.0"><![CDATA[[tabs]
-	[tab=Title 1]Content 1[/tab]
-	[tab=Title 2]Content 2[/tab]	
-[/tabs]]]></phrase>
-  <phrase title="custom_bb_code_example.thinprogress" version_id="2" version_string="1.0.1"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.accordion" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.bg" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.border" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.centerblock" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.fa" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.gdoc" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.goto" version_id="1" version_string="1.0.0"><![CDATA[[goto=anchor]Go to anchor[/goto]]]></phrase>
+  <phrase title="custom_bb_code_example.graph" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.h" version_id="1" version_string="1.0.0"><![CDATA[[h]Title[/h]]]></phrase>
+  <phrase title="custom_bb_code_example.highlight" version_id="1" version_string="1.0.0"><![CDATA[[highlight]text here[/highlight]]]></phrase>
+  <phrase title="custom_bb_code_example.imagefloat" version_id="1" version_string="1.0.0"><![CDATA[[imagefloat=left]Image goes Here[/imagefloat]
+[imagefloat=right]Image goes Here[/imagefloat]]]></phrase>
+  <phrase title="custom_bb_code_example.inlinespoiler" version_id="1" version_string="1.0.0"><![CDATA[This is normal [inlinespoiler] OMG spoiler alert[/inlinespoiler] like that.]]></phrase>
+  <phrase title="custom_bb_code_example.justify" version_id="1" version_string="1.0.0"><![CDATA[[justified]Text goes here[/justified]]]></phrase>
+  <phrase title="custom_bb_code_example.mail" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.message" version_id="1" version_string="1.0.0"><![CDATA[[message=left]Hi :)[/message]
+[message=right]Who is this?[/message]
+[message=left]Lol, It's me silly.[/message]]]></phrase>
+  <phrase title="custom_bb_code_example.newspaper" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.note" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.ooc" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.person" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.pindent" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.print" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.row" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.sh" version_id="1" version_string="1.0.0"><![CDATA[[sh]Sub-Title[/sh]]]></phrase>
+  <phrase title="custom_bb_code_example.side" version_id="1" version_string="1.0.0"><![CDATA[[side=This is a Side]Content here[/side]]]></phrase>
+  <phrase title="custom_bb_code_example.step" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.sub" version_id="1" version_string="1.0.0"><![CDATA[[sub]This is subscript text.[/sub] This is normal text.]]></phrase>
+  <phrase title="custom_bb_code_example.subject" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.table" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.td" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.textmessage" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.tf" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.th" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.thread" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_example.tr" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.a" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.bgimg" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.block" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.blockquote" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.check" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.colorprogress" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.column" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.comment" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.data" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.digital" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.divide" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.doublepost" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.fastack" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.fieldset" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
   <phrase title="custom_bb_code_output.font" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.heightrestrict" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.progress" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.scroll" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.tab" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.tabs" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_output.thinprogress" version_id="2" version_string="1.0.1"><![CDATA[]]></phrase>
-  <phrase title="custom_bb_code_title.accordion" version_id="1" version_string="1.0.0"><![CDATA[Accordion]]></phrase>
-  <phrase title="custom_bb_code_title.bg" version_id="1" version_string="1.0.0"><![CDATA[Background]]></phrase>
-  <phrase title="custom_bb_code_title.border" version_id="1" version_string="1.0.0"><![CDATA[Border]]></phrase>
-  <phrase title="custom_bb_code_title.centerblock" version_id="1" version_string="1.0.0"><![CDATA[Center Block]]></phrase>
-  <phrase title="custom_bb_code_title.fa" version_id="1" version_string="1.0.0"><![CDATA[Font Awesome]]></phrase>
+  <phrase title="custom_bb_code_output.gdoc" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.goto" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.graph" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.h" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.highlight" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.imagefloat" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.inlinespoiler" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.justify" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.mail" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.message" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.newspaper" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.note" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.ooc" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.person" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.pindent" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.print" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.row" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.sh" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.side" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.step" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.sub" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.subject" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.table" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.td" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.textmessage" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.tf" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.th" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.thread" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_output.tr" version_id="1" version_string="1.0.0"><![CDATA[]]></phrase>
+  <phrase title="custom_bb_code_title.a" version_id="1" version_string="1.0.0"><![CDATA[Anchor]]></phrase>
+  <phrase title="custom_bb_code_title.bgimg" version_id="1" version_string="1.0.0"><![CDATA[Background Image]]></phrase>
+  <phrase title="custom_bb_code_title.block" version_id="1" version_string="1.0.0"><![CDATA[Block BBcode]]></phrase>
+  <phrase title="custom_bb_code_title.blockquote" version_id="1" version_string="1.0.0"><![CDATA[Block Quote]]></phrase>
+  <phrase title="custom_bb_code_title.check" version_id="1" version_string="1.0.0"><![CDATA[Check]]></phrase>
+  <phrase title="custom_bb_code_title.colorprogress" version_id="1" version_string="1.0.0"><![CDATA[Color Progress]]></phrase>
+  <phrase title="custom_bb_code_title.column" version_id="1" version_string="1.0.0"><![CDATA[Column]]></phrase>
+  <phrase title="custom_bb_code_title.comment" version_id="1" version_string="1.0.0"><![CDATA[HTML Comment]]></phrase>
+  <phrase title="custom_bb_code_title.data" version_id="1" version_string="1.0.0"><![CDATA[Data]]></phrase>
+  <phrase title="custom_bb_code_title.digital" version_id="1" version_string="1.0.0"><![CDATA[Digital]]></phrase>
+  <phrase title="custom_bb_code_title.divide" version_id="1" version_string="1.0.0"><![CDATA[Divide]]></phrase>
+  <phrase title="custom_bb_code_title.doublepost" version_id="1" version_string="1.0.0"><![CDATA[DoublePost]]></phrase>
+  <phrase title="custom_bb_code_title.fastack" version_id="1" version_string="1.0.0"><![CDATA[Font Awesome Stacking]]></phrase>
+  <phrase title="custom_bb_code_title.fieldset" version_id="1" version_string="1.0.0"><![CDATA[Fieldset]]></phrase>
   <phrase title="custom_bb_code_title.font" version_id="1" version_string="1.0.0"><![CDATA[Font (with Google Fonts support)]]></phrase>
-  <phrase title="custom_bb_code_title.heightrestrict" version_id="1" version_string="1.0.0"><![CDATA[Height Restriction]]></phrase>
-  <phrase title="custom_bb_code_title.progress" version_id="1" version_string="1.0.0"><![CDATA[Progress]]></phrase>
-  <phrase title="custom_bb_code_title.scroll" version_id="1" version_string="1.0.0"><![CDATA[Scroll Box]]></phrase>
-  <phrase title="custom_bb_code_title.tab" version_id="1" version_string="1.0.0"><![CDATA[Tab]]></phrase>
-  <phrase title="custom_bb_code_title.tabs" version_id="1" version_string="1.0.0"><![CDATA[Tabs]]></phrase>
-  <phrase title="custom_bb_code_title.thinprogress" version_id="2" version_string="1.0.1"><![CDATA[Thin Progress]]></phrase>
+  <phrase title="custom_bb_code_title.gdoc" version_id="1" version_string="1.0.0"><![CDATA[Google PDF]]></phrase>
+  <phrase title="custom_bb_code_title.goto" version_id="1" version_string="1.0.0"><![CDATA[Goto Anchor]]></phrase>
+  <phrase title="custom_bb_code_title.graph" version_id="1" version_string="1.0.0"><![CDATA[Graph]]></phrase>
+  <phrase title="custom_bb_code_title.h" version_id="1" version_string="1.0.0"><![CDATA[Header]]></phrase>
+  <phrase title="custom_bb_code_title.highlight" version_id="1" version_string="1.0.0"><![CDATA[Highlight]]></phrase>
+  <phrase title="custom_bb_code_title.imagefloat" version_id="1" version_string="1.0.0"><![CDATA[Image Float]]></phrase>
+  <phrase title="custom_bb_code_title.inlinespoiler" version_id="1" version_string="1.0.0"><![CDATA[Inlight Spoiler]]></phrase>
+  <phrase title="custom_bb_code_title.justify" version_id="1" version_string="1.0.0"><![CDATA[Justify]]></phrase>
+  <phrase title="custom_bb_code_title.mail" version_id="1" version_string="1.0.0"><![CDATA[Email]]></phrase>
+  <phrase title="custom_bb_code_title.message" version_id="1" version_string="1.0.0"><![CDATA[Message]]></phrase>
+  <phrase title="custom_bb_code_title.newspaper" version_id="1" version_string="1.0.0"><![CDATA[Newspaper]]></phrase>
+  <phrase title="custom_bb_code_title.note" version_id="1" version_string="1.0.0"><![CDATA[Note]]></phrase>
+  <phrase title="custom_bb_code_title.ooc" version_id="1" version_string="1.0.0"><![CDATA[OOC]]></phrase>
+  <phrase title="custom_bb_code_title.person" version_id="1" version_string="1.0.0"><![CDATA[Person]]></phrase>
+  <phrase title="custom_bb_code_title.pindent" version_id="1" version_string="1.0.0"><![CDATA[Paragraph Indent]]></phrase>
+  <phrase title="custom_bb_code_title.print" version_id="1" version_string="1.0.0"><![CDATA[Print]]></phrase>
+  <phrase title="custom_bb_code_title.row" version_id="1" version_string="1.0.0"><![CDATA[Row]]></phrase>
+  <phrase title="custom_bb_code_title.sh" version_id="1" version_string="1.0.0"><![CDATA[Sub Heading]]></phrase>
+  <phrase title="custom_bb_code_title.side" version_id="1" version_string="1.0.0"><![CDATA[Side]]></phrase>
+  <phrase title="custom_bb_code_title.step" version_id="1" version_string="1.0.0"><![CDATA[Step]]></phrase>
+  <phrase title="custom_bb_code_title.sub" version_id="1" version_string="1.0.0"><![CDATA[Subscript Text]]></phrase>
+  <phrase title="custom_bb_code_title.subject" version_id="1" version_string="1.0.0"><![CDATA[Subject]]></phrase>
+  <phrase title="custom_bb_code_title.table" version_id="1" version_string="1.0.0"><![CDATA[Table]]></phrase>
+  <phrase title="custom_bb_code_title.td" version_id="1" version_string="1.0.0"><![CDATA[Table Data]]></phrase>
+  <phrase title="custom_bb_code_title.textmessage" version_id="1" version_string="1.0.0"><![CDATA[Text Message]]></phrase>
+  <phrase title="custom_bb_code_title.tf" version_id="1" version_string="1.0.0"><![CDATA[Table Footer]]></phrase>
+  <phrase title="custom_bb_code_title.th" version_id="1" version_string="1.0.0"><![CDATA[Table Head]]></phrase>
+  <phrase title="custom_bb_code_title.thread" version_id="1" version_string="1.0.0"><![CDATA[Thread]]></phrase>
+  <phrase title="custom_bb_code_title.tr" version_id="1" version_string="1.0.0"><![CDATA[Table Row]]></phrase>
 </phrases>

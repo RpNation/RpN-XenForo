@@ -1,0 +1,2 @@
+[imagefloat=left]Image goes Here[/imagefloat]
+[imagefloat=right]Image goes Here[/imagefloat]

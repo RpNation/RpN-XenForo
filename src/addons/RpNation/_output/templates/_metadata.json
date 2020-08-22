@@ -3,5 +3,10 @@
         "version_id": 1,
         "version_string": "1.0.0",
         "hash": "2c9afff9f4428d872359bfdfb59e7ffe"
+    },
+    "public/tabs.css": {
+        "version_id": 1,
+        "version_string": "1.0.0",
+        "hash": "e465e7791ce228c1d92e4897b89b7d62"
     }
 }
