@@ -1,0 +1,4 @@
+[divide]More Below[/divide]
+[divide=thick]More Below[/divide]
+[divide=dotted]More Below[/divide]
+[divide=dotted-thick]More Below[/divide]

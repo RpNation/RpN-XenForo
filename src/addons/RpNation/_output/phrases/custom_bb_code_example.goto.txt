@@ -1,0 +1,1 @@
+[goto=anchor]Go to anchor[/goto]

@@ -1,62 +1,226 @@
 <?xml version="1.0" encoding="utf-8"?>
 <bb_codes>
-  <bb_code bb_code_id="accordion" bb_code_mode="callback" has_option="optional" callback_class="RpNation\BbCode\Accordion" callback_method="renderAccordionTag" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+  <bb_code bb_code_id="a" bb_code_mode="replace" has_option="yes" option_regex="/^\w+$/" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[<a id="user-anchor-{option}" class="bbcode-anchor">{text}</a>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="bgimg" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-background"><div class="bbcode-background-text">{text}</div><div class="bbcode-background-image"><img class="LbImage" data-url="{option}" src="proxy" /></div></div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="block" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<table class="bbcode-block bbcode-block-{option}"><tr><td class="bbcode-block-icon"></td><td class="bbcode-block-content">{text}</td></tr></table>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="blockquote" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="1" disable_nl2br="1" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<table class="bbcode-blockquote"><tr><td class="bbcode-blockquote-left"></td><td class="bbcode-blockquote-content">{text}<div class="bbcode-blockquote-speaker">{option}</div></td><td class="bbcode-blockquote-right"></td></tr></table >]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="check" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-check bbcode-check-{option}">{text}</div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="colorprogress" bb_code_mode="replace" has_option="yes" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-progress bbcode-progress-color"><div class="bbcode-progress-text">{text}</div><div class="bbcode-progress-bar" style="width: calc({option}% - 6px);"></div><div class="bbcode-progress-bar-other"></div></div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="column" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-column column-width-{option}">{text}</div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="comment" bb_code_mode="replace" has_option="no" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="1" active="1">
+    <replace_html><![CDATA[<!--{text}-->]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="data" bb_code_mode="replace" has_option="yes" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-data"><div class="bbcode-data-value" style="height: {option}%;"></div><div class="bbcode-data-label">{text}</div></div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="digital" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-digital bbcode-digital-{option} digital"><div class="bbcode-digital-overflow"><div class="bbcode-digital-content">{text}</div></div></div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="divide" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="0" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[<span class="horizontal-rule bbcode-horizontal-rule bbcode-horizontal-rule-{option} {option}">{text}</span>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="doublepost" bb_code_mode="replace" has_option="optional" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="1" allow_signature="1" active="1">
+    <replace_html><![CDATA[&nbsp;<br />]]></replace_html>
+    <replace_html_email><![CDATA[&nbsp;<br />]]></replace_html_email>
+    <replace_text><![CDATA[ 
+]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="fastack" bb_code_mode="replace" has_option="no" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<span class="fa-stack fa-lg">{text}</span>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="fieldset" bb_code_mode="replace" has_option="yes" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<fieldset class="bbcode-fieldset">
+<legend>{option}</legend>
+<span>{text}</span>
+</fieldset>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="font" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Font" callback_method="renderFontTag" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="1" active="1">
     <replace_html><![CDATA[]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="bg" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="gdoc" bb_code_mode="replace" has_option="no" trim_lines_after="1" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<iframe width="800px" height="700px" frameborder="0" src="https://docs.google.com/viewer?a=v&pid=explorer&chrome=false&embedded=true&srcid={text}"></iframe>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="border" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="goto" bb_code_mode="replace" has_option="yes" option_regex="/^\w+$/" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<a href="javascript:;" onclick="document.location.hash=''; document.location.hash='user-anchor-{option}';" class="bbcode-goto">{text}</a>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="centerblock" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="graph" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="0" disable_smilies="1" disable_nl2br="1" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-graph bbcode-graph-{option}">{text}</div>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="fa" bb_code_mode="callback" has_option="no" callback_class="RpNation\BbCode\FontAwesome" callback_method="renderTagWithFontAwesome" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="h" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<span class="post-heading post-heading-{option}">{text}</span>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="font" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Font" callback_method="renderFontTag" option_regex="/^[a-z0-9 \-]+$/i" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="1" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="highlight" bb_code_mode="replace" has_option="no" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="0" allow_signature="1" active="1">
+    <replace_html><![CDATA[<span class="bbcodeHighlight">{text}</span>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="heightrestrict" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="imagefloat" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="1" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<span class="float-{option}">{text}</span>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="progress" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="1" allow_signature="0" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="inlinespoiler" bb_code_mode="replace" has_option="no" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<span class="inlineSpoiler">{text}</span>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="scroll" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="justify" bb_code_mode="replace" has_option="no" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<span class="bbcode-justify">{text}</span>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="tab" bb_code_mode="callback" has_option="optional" callback_class="RpNation\BbCode\Tabs" callback_method="renderSingleTabCode" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="mail" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-email bbcode-email-{option}"><div class="bbcode-email-top-send">Send New Email</div><div class="bbcode-email-top-receive">New Email Received</div><div class="bbcode-email-first-row"></div><div class="bbcode-email-second-row"></div><div class="bbcode-email-main">{text}</div><div class="bbcode-email-footer"><div class="bbcode-email-button"></div></div></div>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="tabs" bb_code_mode="callback" has_option="no" callback_class="RpNation\BbCode\Tabs" callback_method="renderTabsCode" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="message" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="1" disable_smilies="0" disable_nl2br="1" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-message-{option} {option}"><div class="bbcode-message-author">{option}</div><div class="bbcode-message-content">{text}</div></div>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
-  <bb_code bb_code_id="thinprogress" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="1" allow_signature="0" active="1">
-    <replace_html><![CDATA[]]></replace_html>
+  <bb_code bb_code_id="newspaper" bb_code_mode="replace" has_option="no" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="1" active="1">
+    <replace_html><![CDATA[<div class="bbcode-newspaper">{text}</div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="note" bb_code_mode="replace" has_option="no" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-note"><div class="bbcode-note-tape"></div><div class="bbcode-note-content">{text}<div class="bbcode-note-footer"></div></div></div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="ooc" bb_code_mode="replace" has_option="no" trim_lines_after="1" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="0" allow_empty="0" allow_signature="1" active="1">
+    <replace_html><![CDATA[<div class="bbcode-ooc"><div>OOC</div> {text} </div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="person" bb_code_mode="replace" has_option="no" trim_lines_after="1" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-email-person">{text}</div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="pindent" bb_code_mode="replace" has_option="no" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="1" editor_icon_type="fa" editor_icon_value="fal fa-paragraph" active="1">
+    <replace_html><![CDATA[<span style="display: inline-block; text-indent:2.5em">{text}</span>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="print" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-print print bbcode-print-{option}"><div class="bbcode-print-top-tear"></div>{text}<div class="bbcode-print-bottom-tear"></div></div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="row" bb_code_mode="replace" has_option="no" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-row">{text}</div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="sh" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<span class="post-sub-heading post-sub-heading-{option}">{text}</span>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="side" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-side bbcode-side-{option}">{text}</div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="step" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<table id="bbcode-step-{option}"class="bbcode-step"><tr><td class="bbcode-step-icon"><span>{option}</span></td><td class="bbcode-step-content">{text}<a href="javascript:;" onclick="document.location.hash='bbcode-step-{option}';" class="bbcode-step-link button">Link to Step {option}</a></td></tr></table>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="sub" bb_code_mode="replace" has_option="no" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<sub class="ctaBbcodeSub">{text}</sub>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="subject" bb_code_mode="replace" has_option="no" trim_lines_after="1" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-email-subject">{text}</div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="table" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="1" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<table class="bbcode-table table-style-{option}">{text}</table>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="td" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="1" disable_autolink="0" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[<td colspan="{option}">{text}</td>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="textmessage" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="1" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-textmessage textmessage"><div class="bbcode-textmessage-name">{option}</div><div class="bbcode-textmessage-overflow"><div class="bbcode-textmessage-content">{text}</div></div></div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="tf" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="1" disable_autolink="0" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[<td colspan="{option}" class="footer">{text}</td>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="th" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="1" disable_autolink="0" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[<th colspan="{option}">{text}</th>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="thread" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="0" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[<div class="bbcode-thread bbcode-thread-{option}"><div class="bbcode-thread-declare">Thread {option}</div></div>]]></replace_html>
+    <replace_html_email><![CDATA[]]></replace_html_email>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="tr" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="1" disable_autolink="0" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[<tr class="{option}">{text}</tr>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>

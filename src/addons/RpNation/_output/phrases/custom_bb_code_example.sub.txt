@@ -1,0 +1,1 @@
+[sub]This is subscript text.[/sub] This is normal text.

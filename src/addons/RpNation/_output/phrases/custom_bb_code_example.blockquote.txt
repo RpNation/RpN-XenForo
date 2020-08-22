@@ -1,0 +1,1 @@
+[blockquote=Quote Giver]Text Goes here[/blockquote]
