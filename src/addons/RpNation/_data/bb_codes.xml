@@ -5,6 +5,12 @@
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
+  <bb_code bb_code_id="accordion" bb_code_mode="callback" has_option="optional" callback_class="RpNation\BbCode\Accordion" callback_method="renderAccordionTag" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+  </bb_code>
+  <bb_code bb_code_id="bg" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+  </bb_code>
   <bb_code bb_code_id="bgimg" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
     <replace_html><![CDATA[<div class="bbcode-background"><div class="bbcode-background-text">{text}</div><div class="bbcode-background-image"><img class="LbImage" data-url="{option}" src="proxy" /></div></div>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
@@ -19,6 +25,12 @@
     <replace_html><![CDATA[<table class="bbcode-blockquote"><tr><td class="bbcode-blockquote-left"></td><td class="bbcode-blockquote-content">{text}<div class="bbcode-blockquote-speaker">{option}</div></td><td class="bbcode-blockquote-right"></td></tr></table >]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="border" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+  </bb_code>
+  <bb_code bb_code_id="centerblock" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
   </bb_code>
   <bb_code bb_code_id="check" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
     <replace_html><![CDATA[<div class="bbcode-check bbcode-check-{option}">{text}</div>]]></replace_html>
@@ -58,8 +70,10 @@
   <bb_code bb_code_id="doublepost" bb_code_mode="replace" has_option="optional" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="1" allow_signature="1" active="1">
     <replace_html><![CDATA[&nbsp;<br />]]></replace_html>
     <replace_html_email><![CDATA[&nbsp;<br />]]></replace_html_email>
-    <replace_text><![CDATA[ 
-]]></replace_text>
+    <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="fa" bb_code_mode="callback" has_option="no" callback_class="RpNation\BbCode\FontAwesome" callback_method="renderTagWithFontAwesome" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
   </bb_code>
   <bb_code bb_code_id="fastack" bb_code_mode="replace" has_option="no" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
     <replace_html><![CDATA[<span class="fa-stack fa-lg">{text}</span>]]></replace_html>
@@ -98,6 +112,9 @@
     <replace_html><![CDATA[<span class="post-heading post-heading-{option}">{text}</span>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="heightrestrict" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
   </bb_code>
   <bb_code bb_code_id="highlight" bb_code_mode="replace" has_option="no" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="0" allow_signature="1" active="1">
     <replace_html><![CDATA[<span class="bbcodeHighlight">{text}</span>]]></replace_html>
@@ -159,10 +176,16 @@
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
+  <bb_code bb_code_id="progress" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="1" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+  </bb_code>
   <bb_code bb_code_id="row" bb_code_mode="replace" has_option="no" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
     <replace_html><![CDATA[<div class="bbcode-row">{text}</div>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="scroll" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
   </bb_code>
   <bb_code bb_code_id="sh" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
     <replace_html><![CDATA[<span class="post-sub-heading post-sub-heading-{option}">{text}</span>]]></replace_html>
@@ -189,6 +212,12 @@
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
   </bb_code>
+  <bb_code bb_code_id="tab" bb_code_mode="callback" has_option="optional" callback_class="RpNation\BbCode\Tabs" callback_method="renderSingleTabCode" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+  </bb_code>
+  <bb_code bb_code_id="tabs" bb_code_mode="callback" has_option="no" callback_class="RpNation\BbCode\Tabs" callback_method="renderTabsCode" trim_lines_after="0" plain_children="0" disable_smilies="0" disable_nl2br="0" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
+    <replace_html><![CDATA[]]></replace_html>
+  </bb_code>
   <bb_code bb_code_id="table" bb_code_mode="replace" has_option="optional" trim_lines_after="1" plain_children="0" disable_smilies="0" disable_nl2br="1" disable_autolink="0" allow_empty="0" allow_signature="0" active="1">
     <replace_html><![CDATA[<table class="bbcode-table table-style-{option}">{text}</table>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
@@ -213,6 +242,8 @@
     <replace_html><![CDATA[<th colspan="{option}">{text}</th>]]></replace_html>
     <replace_html_email><![CDATA[]]></replace_html_email>
     <replace_text><![CDATA[]]></replace_text>
+  </bb_code>
+  <bb_code bb_code_id="thinprogress" bb_code_mode="callback" has_option="yes" callback_class="RpNation\BbCode\Utils" callback_method="renderTagWithProxiedCss" trim_lines_after="0" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="1" allow_empty="1" allow_signature="0" active="1">
   </bb_code>
   <bb_code bb_code_id="thread" bb_code_mode="replace" has_option="yes" trim_lines_after="1" plain_children="1" disable_smilies="1" disable_nl2br="1" disable_autolink="0" allow_empty="1" allow_signature="0" active="1">
     <replace_html><![CDATA[<div class="bbcode-thread bbcode-thread-{option}"><div class="bbcode-thread-declare">Thread {option}</div></div>]]></replace_html>
